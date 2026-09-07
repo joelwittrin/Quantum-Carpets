@@ -1,11 +1,11 @@
-The files of interest for external parties are main.py, animating_scripts.py & quantum_carpets.py. These allow the user to try the code with no need for writing anything themselves!
+**Computation of Leaky Quantum Carpets**
 
-main.py is the computational part of the project. Here, parameters are chosen.
+A numerical solver for the time-dependent 1D Schrödinger equation, supporting multiple boundary conditions (Dirichlet, Neumann, Sommerfeld/radiating) and potentials. The numerical solution can be compared against an analytical solution, and visualized as "quantum carpets" - space-time plots of the probability density.
 
-animating_scripts.py plots the numerical solution to the analytical based on the parameters in main.py
+Files of interest:
 
-quantum_carpets.py plots the quantum carpets, based on the parameters in main.py
+1. main.py - The computational core of the project. All parameters (initial conditions, potentials, boundary conditions, etc.) are chosen here.
+2. animating_scripts.py - Animates the numerical solution alongside the analytical solution, based on the parameters set in main.py.
+3. quantum_carpets.py - Generates quantum carpet plots (probability density over position and time), based on the parameters set in main.py.
 
-
-
-Good luck in your future endeavours, whoever stumbles upon this code...
+These three files let you run and explore the project without writing any code yourself. All code has been used for the bachelor's project "Computation of Leaky Quantum Carpets".
